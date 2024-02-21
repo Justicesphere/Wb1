@@ -238,6 +238,7 @@ text-decoration:underline;
     text-align: center;
     margin-right: 69%;
     margin-left: 7%;
+    color: var(--clr-slate600);
 }
 .image2{
     width: 5%;
@@ -256,7 +257,8 @@ text-decoration:underline;
     float: right;
     margin-right: 39%;
     margin-left: 38%;
-    margin-top: -5.7%
+    margin-top: -5.7%;
+    color: var(--clr-slate600);
 }
     .image3{
         width: 5%;
@@ -275,7 +277,8 @@ text-decoration:underline;
         float: right;
         margin-right: 5%;
         margin-left: 68%;
-        margin-top: -9.5%
+        margin-top: -9.5%;
+        color: var(--clr-slate600);
     }
 
 
@@ -338,11 +341,6 @@ text-decoration:underline;
         width: 6%;
         margin-top: 13%;
         margin-left: 45%;
-       }
-       .quotation3{
-        width: 6%;
-        margin-top: 5%;
-        margin-left: -1%;
        }
        .quote-para3{
         color: var(--clr-slate600);
@@ -739,15 +737,11 @@ background: linear-gradient(0deg, rgba(10,10,23,1) 0%, rgba(43,42,45,1) 27%);
         margin-top: 42%;
         margin-left: 3%;
        }
-       .quotation3{
-        width: 23%;
-    margin-top: 15%;
-    margin-left: -1%;
-       }
        .quote-para3{
-        margin-top: 9%;
+        margin-top: 2%;
     margin-right: 6%;
     margin-left: 6%;
+    font-size: 14px;
        }
        #Download{
         margin-top: 10%;
@@ -823,6 +817,98 @@ button {
          padding-bottom: 20%;
        }
     }
+    
+    @media (min-width: 326px){
+        
+        .header-logodetails {
+            height: 9%;
+            width: 100%;
+        }
+        .navbar-menu-toggle{
+            display:block;
+        }
+        .navbar-links{
+            display:none;
+        }
+        .side-navbar{
+            width: 35%;
+            height: 38%;
+            position: fixed;
+           
+            z-index: 10;
+            }
+
+     .nav-logo1{
+        padding-left: 10px;
+        margin-top: 7px;
+            margin-left: auto;
+            width:140px;
+    height:37px; 
+        }
+        .image {
+            width: 100%;
+            height: 41vh;
+            padding-bottom: 0;
+          
+           
+        }
+        .navbar-menu-toggle{
+            margin-right: 12%;
+        }
+        .image-contains {
+            font-size: 21px;
+            top: 23%;
+            margin-left: 17%;
+            line-height: 1.3;
+        }
+        .image-contains1 {
+           margin-left: 6.5%;
+           line-height: 1.3;
+        }
+        #About{
+        
+            height: 154%;
+            
+           margin-top: -10px;
+            padding-top: 14px;
+           
+           
+            }
+        .paragraph{
+            padding-right: 13px;
+                padding-left: 13px;
+                margin-bottom: 13px;
+                font-size:16px;
+     }  
+             .about2{
+                padding-bottom: 10px;
+                font-size: 12px;
+                padding-top: 26px;
+                margin:16px;
+                
+            }
+            .about3{
+            margin-bottom: 20%;
+            
+            }
+            .img {
+                width: 85%;
+                margin-bottom: -41.5px;
+                margin-top: -13%;
+            }
+            .quote-para3{
+                margin-top: 1%;
+                margin-right: 6%;
+                margin-left: 6%;
+                font-size: 14px;
+               }
+               .quality-para {
+                margin-top: 20px;
+                margin-right: 2%;
+                margin-left: 3%;
+                font-size: 14px;
+            }
+            }
     @media (min-width: 480px){
         .header-logodetails {
             width: 100%;
@@ -1017,15 +1103,11 @@ button {
                 width: 21%;
     margin-top: 31%;
                }
-               .quotation3{
-                width: 21%;
-            margin-top: 15%;
-            margin-left: -1%;
-               }
                .quote-para3{
-                margin-top: 9%;
-            margin-right: 6%;
-            margin-left: 6%;
+                margin-top: 2%;
+                margin-right: 6%;
+                margin-left: 6%;
+                font-size: 15px;
                }
                #Download{
                 margin-top: 10%;
@@ -1036,7 +1118,7 @@ button {
              margin-bottom: 13%;
              padding-top: 15vh;
              padding-bottom: 25vh;
-             margin-top: 37%;
+             margin-top: 26%;
               }
                .download-para{
                 height: 30%;
@@ -1101,7 +1183,7 @@ button {
                .footer{
                  padding-bottom: 11%;
                }
-}
+            }
     @media (min-width: 600px){
       
         .header-logodetails {
@@ -1292,13 +1374,8 @@ font-size: 32px;
     margin-top: 18%;
     margin-left: 1%;
 }
-.quotation3{
-    width: 13%;
-    margin-top: 15%;
-    margin-left: 1%;
-}
 .quote-para3{
-margin-top: 9%;
+margin-top: 1%;
 margin-right: 6%;
 margin-left: 6%;
 }
@@ -1557,13 +1634,8 @@ width: 13%;
 margin-top: 18%;
 margin-left: 1%;
 }
-.quotation3{
-width: 13%;
-margin-top: 15%;
-margin-left: 1%;
-}
 .quote-para3{
-margin-top: 9%;
+margin-top: 1%;
 margin-right: 6%;
 margin-left: 6%;
 }
@@ -1790,15 +1862,11 @@ padding-bottom: 20%;
                         margin-top: 18%;
                         margin-left: 1%;
                     }
-                    .quotation3{
-                        width: 13%;
-                        margin-top: 15%;
-                        margin-left: 1%;
-                    }
                     .quote-para3{
-                    margin-top: 9%;
-                    margin-right: 6%;
-                    margin-left: 6%;
+                        margin-top: 1%;
+                        margin-right: 6%;
+                        margin-left: 6%;
+                        font-size: 17px;
                     }
                     #Download{
                     margin-top: 10%;
@@ -2038,16 +2106,11 @@ padding-bottom: 20%;
                         width: 9%;
                         margin-top: 12%;
                     }
-                    .quotation3{
-                        width: 9%;
-                        margin-top: 15%;
-                        margin-left: 1%;
-                    }
                     .quote-para3{
-                        margin-top: 5%;
+                        margin-top: 0%;
                         margin-right: 11%;
                         margin-left: 8%;
-                        font-size: 17px;
+                        font-size: 17.7px;
                     }
                     #Download{
                     margin-top: 10%;
@@ -2297,15 +2360,10 @@ padding-bottom: 20%;
         width: 5%;
         margin-top: 12%;
     }
-    .quotation3{
-        width: 5%;
-        margin-top: 8%;
-        margin-left: 1%;
-    }
     .quote-para3{
         margin-right: 20%;
-        margin-left: 25%;
-        font-size: 18px;
+        margin-left: 20%;
+        font-size: 17.8px;
     }
     
     #Download{
@@ -2487,16 +2545,16 @@ padding-bottom: 20%;
     }
         .image3{
             margin-right: 19%;
-            margin-top: -20%;
+            margin-top: -17%;
             width: 5%;
         }
         .express{
-            margin-top: -15%;
+            margin-top: -12%;
             margin-right: 16%;
         }
         .express-para{
             margin-left: 66%;
-    margin-top: -10.9%;
+    margin-top: -8.9%;
     font-size: 17.7px;
         }
     .intro{
@@ -2546,15 +2604,10 @@ padding-bottom: 20%;
         width: 5%;
         margin-top: 12%;
     }
-    .quotation3{
-        width: 5%;
-        margin-top: 15%;
-        margin-left: 1%;
-    }
     .quote-para3{
-        margin-right: 20%;
+        margin-right: 25%;
         margin-left: 25%;
-        font-size: 17px;
+        font-size: 18px;
     }
     
     #Download{
